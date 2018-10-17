@@ -9,7 +9,6 @@ RUN apt-get install -y openssl
 RUN apt-get install -y iotop
 RUN apt-get install -y strace
 RUN apt-get install -y tcpdump
-RUN apt-get install -y lsof
 RUN apt-get install -y inotify-tools
 RUN apt-get install -y sysstat
 RUN apt-get install -y build-essential
